@@ -1,0 +1,15 @@
+body{
+	background-color: #020002;
+}
+
+.content{
+	width: 800px;
+	margin:0px auto;
+	background-image: url('../images/background.gif');
+	background-repeat: no-repeat;
+}
+
+#feeds{
+background-color: #fff;
+
+}
