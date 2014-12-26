@@ -14,22 +14,9 @@ body{
     font-weight: bold;
 }
 
-.content{
-	width: 600px;
-	margin:0px auto;
-	background-image: url('../images/tonym_plain.png');
-	background-repeat: no-repeat;
-    background-position: 50px 100px;
-}
-
-.content .meta{display: block; position:relative; top: 200px; left: 200px; height: 400px;}
-.content .meta a{text-decoration: none; padding-right: 10px;}
-.content .meta a.first{color: #26356e;}
-.content .meta a.second{color: #69709b;}
-.content .meta a.third{color: #9fa7cd;}
-
-
-#feeds{
-background-color: #fff;
-
-}
+.content{width: 600px; margin:0px auto;	background-image: url('../images/tonym_plain.png');	background-repeat: no-repeat; background-position: 50px 100px;}
+    .content .meta{display: block; position:relative; top: 200px; left: 200px; height: 300px;}
+    .content .meta a{text-decoration: none; padding-right: 10px;}
+    .content .meta a.first{color: #26356e;}
+    .content .meta a.second{color: #69709b;}
+    .content .meta a.third{color: #9fa7cd;}
