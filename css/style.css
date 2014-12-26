@@ -1,13 +1,33 @@
+@import url("http://fonts.googleapis.com/css?family=Ubuntu:700italic,700,500italic,500,400italic,400");
+
 body{
 	background-color: #020002;
+    font-family:Ubuntu,Segoe,"Segoe UI","Helvetica Neue",Arial,Helvetica,sans-serif;
+    overflow: hidden;
+}
+
+.footer{
+    text-align: center;
+    margin: 20px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
 }
 
 .content{
 	width: 800px;
 	margin:0px auto;
-	background-image: url('../images/background.gif');
+	background-image: url('../images/tonym_plain.png');
 	background-repeat: no-repeat;
+    background-position: 50px 100px;
 }
+
+.content .meta{display: block; position:relative; top: 200px; left: 200px; height: 400px;}
+.content .meta a{text-decoration: none; padding-right: 10px;}
+.content .meta a.first{color: #26356e;}
+.content .meta a.second{color: #69709b;}
+.content .meta a.third{color: #9fa7cd;}
+
 
 #feeds{
 background-color: #fff;

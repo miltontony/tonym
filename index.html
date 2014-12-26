@@ -5,18 +5,12 @@
 <title>Home :: TonyM</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
-<link href="css/style.css?version=2.1" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/site.css?version=2" rel="stylesheet" type="text/css" media="screen" />
+<link href="css/style.css?version=2.2" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/topmenu_style.css?version=2" rel="stylesheet" type="text/css" media="screen" />
-<link href="css/leftmenu_style.css?version=2.1" rel="stylesheet" type="text/css" media="screen" />
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 
 <script src="scripts/jquery/jquery.easing.1.3.js" type="text/javascript"></script>
-
-<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAuG3Px-Nr1n-KOFItKiuJzBR7IwsVt-YeZ6ikJ-qq2oxGyrOmCxSWBTaS0kkKZHrw1Swea1Tsb86i5w"></script>  
-<script type="text/javascript" src="scripts/jquery/jquery.gfeed.js"></script> 
 
 <meta name="google-site-verification" content="_jOTPoJaWi3hTtfF_Vm0v1T79eAg6D-WDwDGfQ6YNaA" />
 </head>
@@ -37,34 +31,27 @@
 	<div class="topmenu">
 		<ul id="topMenuNavigation">
 			<li class="home"><a href="#"><span>Home</span></a></li>
-			<li class="photomap"><a href="photomap/"><span>Photo Map</span></a></li>
-			<li class="newsconnector"><a target="_blank" href="http://www.newsconnector.co.za/"><span>News Connector</span></a></li>
+			<li class="newsconnector"><a target="_blank" href="http://www.newsworld.co.za/"><span>News World</span></a></li>
 		</ul>
 	</div>
 	<div class="break"></div>
-	
-	<div id="feeds_container">
-	<a href="http://www.google.com/reader/shared/madandat" target="_blank"><div id="feedsIcon" style="display:none"></div></a>
-	<div id="feeds">
-		<a class="feed" href="http://www.google.com/reader/public/atom/user%2F15930348984691872243%2Fstate%2Fcom.google%2Fbroadcast">What I'm reading</a>
-	</div>
-	</div>
-	
+
 <div class="content">
-	<div style="height: 400px"></div>
-	<img src="images/what_im_reading.png?v1" alt="" />
-	<div style="clear:both"></div> 
-	<div class="footer">Copyright (c) 2010 TonyM</div>
+	<div class="meta">
+        <a href="https://github.com/miltontony/" class="first" target="_blank">My life. </a>
+        <a href="http://instagram.com/miltonmad/" class="second" target="_blank">My pictures. </a>
+        <a href="http://miltontony.tumblr.com/" class="third" target="_blank">My stories.</a>
+    </div>
+
+	<div style="clear:both"></div>
+	<div class="footer">Copyright (c) 2014 TonyM</div>
 </div>
 </body>
 </html>
 
-<script type="text/javascript"> 
+<script type="text/javascript">
 $(document).ready(function(){
 	createTopMenu();
-	createLeftMenu();
-	$('a.feed').gFeed( { target: '#feeds', tabs: true, max: 4 } );
-	
 	setTimeout("$('#feedsIcon').show();", 2500);
 });
 
@@ -90,27 +77,4 @@ function createTopMenu() {
 	);
 }
 
-function createLeftMenu(){
-	$('#feeds_container').stop().animate({'marginLeft':'-300px'},1000);
-	$('#feeds_container, ').hover(
-		function () {
-			$(this).stop().animate({'marginLeft':'0px'},200);
-			$('#feedsIcon').stop().animate({'marginLeft':'300px'},200);
-		},
-		function () {
-			$(this).stop().animate({'marginLeft':'-300px'},200);
-			$('#feedsIcon').stop().animate({'marginLeft':'0px'},200);
-		}
-	);
-}
 </script>
-
-<!--
-
-DMS Converter:
-http://vancouver-webpages.com/META/DMS.html
-
-GMaps Key:
-ABQIAAAAuG3Px-Nr1n-KOFItKiuJzBR7IwsVt-YeZ6ikJ-qq2oxGyrOmCxSWBTaS0kkKZHrw1Swea1Tsb86i5w
-
--->
